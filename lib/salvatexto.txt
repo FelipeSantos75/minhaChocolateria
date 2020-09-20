@@ -1,0 +1,5 @@
+Produto(
+              pImagem: 'assets/trufazero30g.png',
+              pPreco: '3,50',
+              pTitulo: 'Trufa Artesanal ',
+            ),
