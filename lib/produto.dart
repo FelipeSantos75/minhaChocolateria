@@ -9,18 +9,13 @@ class Produto extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        child: Row(
-      children: [
+        child: 
         ProdutoImagem(
           urlImagem: pImagem,
           titulo: pTitulo,
           preco: pPreco,
         ),
-        //Produtos(
-        //  titulo: pTitulo,
-        //  preco: pPreco,
-        //),
-      ],
-    ));
+        
+    );
   }
 }

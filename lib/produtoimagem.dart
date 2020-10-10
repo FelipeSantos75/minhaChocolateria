@@ -10,9 +10,11 @@ class ProdutoImagem extends StatelessWidget {
       : super(key: key);
   @override
   Widget build(BuildContext context) {
+    var alturaDisponivel = MediaQuery.of(context).size.height;
+    var larguraDisponivel = MediaQuery.of(context).size.width;
     return Container(
-      width: 150,
-      height: 220,
+      width: larguraDisponivel*0.3,
+      height: alturaDisponivel*0.7,
       margin: EdgeInsets.only(
         top: 10.0,
         left: 20,
@@ -31,31 +33,31 @@ class ProdutoImagem extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
-            padding: EdgeInsets.all(8),
-            child: Text(
-              titulo,
-              style: TextStyle(
-                fontSize: 20,
-                fontFamily: 'Sagona3',
+            padding: EdgeInsets.all(6),
+            child: FittedBox(
+              child: Text(
+                titulo,
+                style: TextStyle(
+                  fontSize: 20,
+                  fontFamily: 'Sagona3',
+                ),
               ),
             ),
           ),
           Container(
-            height: 100,
-            width: 150,
+            height: alturaDisponivel*0.13,
+            width: larguraDisponivel*0.3,
             decoration: BoxDecoration(
-        
-          image: DecorationImage(
-            image: AssetImage(urlImagem),
-            fit: BoxFit.cover,
-          ),
-            
-          ),
+              image: DecorationImage(
+                image: AssetImage(urlImagem),
+                fit: BoxFit.cover,
+              ),
+            ),
           ),
           Container(
-            padding: EdgeInsets.all(8),
+            padding: EdgeInsets.all(4),
             child: FittedBox(
-                          child: Text(
+              child: Text(
                 'R\$ $preco',
                 style: TextStyle(fontFamily: 'Foco2', fontSize: 20),
               ),
