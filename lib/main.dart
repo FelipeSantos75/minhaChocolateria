@@ -43,58 +43,72 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Container(
-          
           color: Color(0xffefeae2),
           child: ListView(
             children: [
+              Produto(
+                pImagem: 'assets/trufamaracuja.png',
+                pPreco: '3,00',
+                pTitulo: 'Trufa Artesanal 30g ',
+              ),
               Produto(
                 pImagem: 'assets/trufazero30g.png',
                 pPreco: '3,50',
                 pTitulo: 'Trufa Zero Açucar ',
               ),
-              Center(child: Text('---------------------')),
               Produto(
                 pImagem: 'assets/trufazero30g.png',
+                pPreco: '3,50',
+                pTitulo: 'Trufa Zero Açucar ',
+              ),
+              Produto(
+                pImagem: 'assets/byteAoLeite.png',
+                pPreco: '3,50',
+                pTitulo: 'Byte Ao Leite',
+              ),
+              Produto(
+                pImagem: 'assets/byteUvaPassa.png',
                 pPreco: '3,50',
                 pTitulo: 'Trufa Artesanal ',
               ),
               Produto(
-                pImagem: 'assets/trufazero30g.png',
+                pImagem: 'assets/bombomzeroacucar13g.png',
+                pPreco: '2,50',
+                pTitulo: 'Trufa Artesanal ',
+              ),
+              Produto(
+                pImagem: 'assets/tablete5g.png',
                 pPreco: '3,50',
                 pTitulo: 'Trufa Artesanal ',
               ),
               Produto(
-                pImagem: 'assets/trufazero30g.png',
+                pImagem: 'assets/tabletebenditocacao85porcento100g.png',
                 pPreco: '3,50',
                 pTitulo: 'Trufa Artesanal ',
               ),
               Produto(
-                pImagem: 'assets/trufazero30g.png',
+                pImagem:
+                    'assets/tabletebenditocacaoorgânico52porcentoorganico100g.png',
                 pPreco: '3,50',
                 pTitulo: 'Trufa Artesanal ',
               ),
               Produto(
-                pImagem: 'assets/trufazero30g.png',
+                pImagem: 'assets/tabletelacremeaoleite20g.png',
                 pPreco: '3,50',
                 pTitulo: 'Trufa Artesanal ',
               ),
               Produto(
-                pImagem: 'assets/trufazero30g.png',
+                pImagem: 'assets/tabletedreamspetitgateau130g.png',
                 pPreco: '3,50',
                 pTitulo: 'Trufa Artesanal ',
               ),
               Produto(
-                pImagem: 'assets/trufazero30g.png',
+                pImagem: 'assets/pacoca.png',
                 pPreco: '3,50',
                 pTitulo: 'Trufa Artesanal ',
               ),
               Produto(
-                pImagem: 'assets/trufazero30g.png',
-                pPreco: '3,50',
-                pTitulo: 'Trufa Artesanal ',
-              ),
-              Produto(
-                pImagem: 'assets/trufazero30g.png',
+                pImagem: 'assets/tabletelanut100g.png',
                 pPreco: '3,50',
                 pTitulo: 'Trufa Artesanal ',
               ),

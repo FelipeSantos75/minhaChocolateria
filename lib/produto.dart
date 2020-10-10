@@ -13,11 +13,13 @@ class Produto extends StatelessWidget {
       children: [
         ProdutoImagem(
           urlImagem: pImagem,
-        ),
-        Produtos(
           titulo: pTitulo,
           preco: pPreco,
         ),
+        //Produtos(
+        //  titulo: pTitulo,
+        //  preco: pPreco,
+        //),
       ],
     ));
   }
