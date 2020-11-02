@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-import 'package:minhaChocolateria/produtoimagem.dart';
 import 'package:minhaChocolateria/produtos.dart';
 
 void main() {

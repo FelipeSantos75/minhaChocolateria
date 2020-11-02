@@ -4,7 +4,7 @@ import 'package:minhaChocolateria/produtoimagem.dart';
 class Produtos extends StatelessWidget {
   
 
-  const Produtos();
+  Produtos();
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -19,8 +19,7 @@ class Produtos extends StatelessWidget {
             ProdutoImagem(
               urlImagem: 'assets/trufamaracuja.png',
               preco: '3,00',
-              titulo: 'Trufas 30g',
-              
+              titulo: 'Trufas 30g',       
               
             ),
             ProdutoImagem(
